@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/i3/conf:
+        create: true
+        path: i3/config
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
