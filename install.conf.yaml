@@ -12,8 +12,8 @@
     ~/.config/kitty/kitty.conf:
         create: true
         path: kitty/kitty.conf
-    ~/.zshrc:
-    ~/.profile:
+    ~/.zshrc: .zshrc
+    ~/.profile: .profile
     ~/.spacemacs:
 
 - shell:
