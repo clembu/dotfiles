@@ -8,6 +8,7 @@
     ~/.config/i3/conf:
         create: true
         path: i3/config
+    ~/.Xresources:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
