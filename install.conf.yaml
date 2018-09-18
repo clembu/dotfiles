@@ -12,6 +12,7 @@
     ~/.config/kitty/kitty.conf:
         create: true
         path: kitty/kitty.conf
+    ~/.zshrc:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
