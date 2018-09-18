@@ -14,6 +14,7 @@
         path: kitty/kitty.conf
     ~/.zshrc:
     ~/.profile:
+    ~/.spacemacs:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
