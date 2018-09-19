@@ -287,7 +287,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
 # Open Kitty on startup
-exec_always --no-startup-id i3-msg 'workspace $ws3; exec kitty; workspace $ws3'
+exec --no-startup-id i3-msg 'workspace $ws3; exec kitty; workspace $ws3'
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
