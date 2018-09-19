@@ -15,6 +15,7 @@
     ~/.zshrc: .zshrc
     ~/.profile: .profile
     ~/.spacemacs:
+    ~/.config/compton.conf: compton.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
