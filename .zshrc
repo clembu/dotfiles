@@ -8,6 +8,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+POWERLEVEL9K_MODE="nerdfont-complete"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
@@ -101,3 +102,5 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/bin/i_all.sh
 source $HOME/.config/powerlevel9k_icons.sh
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda rust_version java_version newline os_icon user ssh dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
