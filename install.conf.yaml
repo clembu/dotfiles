@@ -16,6 +16,7 @@
     ~/.profile: .profile
     ~/.spacemacs:
     ~/.config/compton.conf: compton.conf
+    ~/.config/powerlevel9k_icons.sh: powerlevel9k_icons.sh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
