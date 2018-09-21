@@ -5,3 +5,6 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export BROWSER=/usr/bin/palemoon
 export PATH="$PATH:$HOME/bin:$HOME/bin/miniconda3/bin/"
 source $HOME/bin/i_all.sh
+
+source /usr/share/chruby/chruby.sh
+chruby ruby-2.5.1

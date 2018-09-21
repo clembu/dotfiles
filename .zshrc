@@ -104,3 +104,5 @@ source $HOME/bin/i_all.sh
 source $HOME/.config/powerlevel9k_icons.sh
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda rust_version java_version newline os_icon user ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+
+source /usr/share/chruby/chruby.sh
