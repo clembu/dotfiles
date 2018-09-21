@@ -105,4 +105,6 @@ source $HOME/.config/powerlevel9k_icons.sh
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda rust_version java_version newline os_icon user ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 
+# opam configuration
+test -r /home/odd/.opam/opam-init/init.zsh && . /home/odd/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 source /usr/share/chruby/chruby.sh
