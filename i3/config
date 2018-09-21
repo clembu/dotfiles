@@ -127,16 +127,16 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
+set $ws1 1:
+set $ws2 2:
+set $ws3 3:
 set $ws4 4
 set $ws5 5
 set $ws6 6
-set $ws7 7
-set $ws8 8
-set $ws9 9
-set $ws0 10
+set $ws7 7:🦄
+set $ws8 8:
+set $ws9 9:ﭮ
+set $ws0 10:❓
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -323,7 +323,7 @@ bar {
 
 	bindsym button4 nop
 	bindsym button5 nop
-#   font xft:URWGothic-Book 11
+  font pango:HackNerdFont 11
 	strip_workspace_numbers yes
 
     colors {
