@@ -108,3 +108,8 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 # opam configuration
 test -r /home/odd/.opam/opam-init/init.zsh && . /home/odd/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 source /usr/share/chruby/chruby.sh
+
+# better yaourt colors
+export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
+
+source /usr/share/nvm/init-nvm.sh
