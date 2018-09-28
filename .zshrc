@@ -102,8 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/bin/i_all.sh
 source $HOME/.config/powerlevel9k_icons.sh
-POWERLEVEL9K_CUSTOM_OCAML_VERSION="echo 🐫 \$(ocaml -vnum)"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(chruby anaconda rust_version java_version custom_ocaml_version newline os_icon user ssh dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 
 # opam configuration
