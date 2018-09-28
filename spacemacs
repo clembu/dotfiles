@@ -47,6 +47,7 @@ This function should only modify configuration layer settings."
      version-control
      rust
      ocaml
+     haskell
      )
 
    ;; List of additional packages that will be installed without being
