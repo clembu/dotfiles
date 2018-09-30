@@ -49,6 +49,7 @@ This function should only modify configuration layer settings."
      rust
      ocaml
      haskell
+     dash
      )
 
    ;; List of additional packages that will be installed without being
