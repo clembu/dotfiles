@@ -1869,7 +1869,7 @@ xkb_symbols "us-fp"
   
   key <AB06> { [ n,            N,           ampersand,       notsign         ] };
   
-  key <AB08> { [ comma,        less,        enfilledcircbullet, ellipsis     ] };
+  key <AB08> { [ comma,        enfilledcircbullet, ellipsis 		     ] };
   key <AB09> { [ period,       exclam,      question,        0x0100203D      ] };
   key <AB10> { [ apostrophe,   quotedbl                                      ] };
 
