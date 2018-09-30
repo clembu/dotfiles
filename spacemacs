@@ -42,7 +42,8 @@ This function should only modify configuration layer settings."
      better-defaults
      emacs-lisp
      git
-     org
+     (org :variables
+          org-enable-org-journal-support t)
      syntax-checking
      version-control
      rust
