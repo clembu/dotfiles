@@ -53,6 +53,7 @@ This function should only modify configuration layer settings."
      dash
      imenu-list
      ibuffer
+     bbcode
      )
 
    ;; List of additional packages that will be installed without being
