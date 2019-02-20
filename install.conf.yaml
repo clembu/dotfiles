@@ -13,10 +13,11 @@
         create: true
         path: kitty/kitty.conf
     ~/.zshrc: .zshrc
-    ~/.profile: .profile
+    ~/.zprofile: .profile
     ~/.spacemacs:
     ~/.config/compton.conf: compton.conf
     ~/.config/powerlevel9k_icons.sh: powerlevel9k_icons.sh
+    ~/bin/EDITOR: EDITOR
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

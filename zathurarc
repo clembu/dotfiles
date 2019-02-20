@@ -1,0 +1,13 @@
+set recolor "true"
+set recolor-lightcolor "#222D31" #00
+set recolor-darkcolor "#F8F8F8" #06
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set selection-clipboard clipboard
+
+unmap f
+map f toggle_fullscreen
+map f toggle_statusbar
+map [fullscreen] f toggle_fullscreen
+map [fullscreen] f toggle_statusbar

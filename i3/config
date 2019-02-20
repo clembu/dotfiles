@@ -54,8 +54,8 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 # Start Applications
 bindsym Print exec --no-startup-id i3-scrot
-bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Print --release exec --no-startup-id scrot -w
+bindsym $mod+Shift+Print --release exec --no-startup-id scrot -s
 bindsym $mod+Ctrl+Print --release exec --no-startup-id screencast.sh
 bindsym $mod+Ctrl+Shift+Print exec --no-startup-id "killall ffmpeg"
 
@@ -284,6 +284,7 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id "setxkbmap -layout us,us -model asus_laptop -variant us-fp,altgr-intl -option grp:shifts_toggle"
 # Open Kitty on startup
 exec --no-startup-id i3-msg 'workspace $ws3; exec kitty; workspace $ws3'
+exec --no-startup-id i3-msg 'workspace $ws2; exec emacs; workspace $ws2'
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
