@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "spacemacs.d"]
+	path = spacemacs.d
+	url = https://github.com/facelesspanda/.spacemacs.d

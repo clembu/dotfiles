@@ -16,7 +16,9 @@
         path: kitty/kitty.conf
     ~/.zshrc: .zshrc
     ~/.zprofile: .profile
-    ~/.spacemacs:
+    ~/.spacemacs.d/:
+      glob: true
+      path: spacemacs.d/*
     ~/.config/compton.conf: compton.conf
     ~/.config/powerlevel9k_icons.sh: powerlevel9k_icons.sh
     ~/bin/EDITOR: EDITOR
