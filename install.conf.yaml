@@ -16,6 +16,7 @@
         path: kitty/kitty.conf
     ~/.zshrc: .zshrc
     ~/.zprofile: .profile
+    ~/.config/zathura/zathurarc: zathurarc
     ~/.spacemacs.d/:
       glob: true
       path: spacemacs.d/*
