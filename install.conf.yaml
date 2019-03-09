@@ -1,5 +1,7 @@
 - defaults:
     link:
+      create: true
+      force: true
       relink: true
 
 - clean: ['~']
@@ -18,6 +20,9 @@
     ~/.config/compton.conf: compton.conf
     ~/.config/powerlevel9k_icons.sh: powerlevel9k_icons.sh
     ~/bin/EDITOR: EDITOR
+    ~/bin/:
+      glob: true
+      path: icons/*
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
